@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtualenvs
+.venv/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.token
+config.yaml
+secrets.*
+
+# Runtime data
+logs/
+*.log
+*.sqlite
+*.sqlite3
+sessions/
+downloads/
+cache/
+media/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
